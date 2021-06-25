@@ -1,0 +1,18 @@
+1)npm init
+
+2)create Index,Css and Js files 
+  -connect css  to index file by using<link rel ="stylesheet" href="filename"> and js file by using <script src="file name">
+
+3)Install dependencies,express,nodemon
+
+4) create a express server(server.js)
+
+5)do front end part
+
+6)install socket.io,Setup scoket.io in server.js and client client.js
+
+7)client send message logic in client.js
+
+8)Recive message on server and broadcast to all clients
+
+9)Recive message on client and display it.scrollToBottom etc...
