@@ -33,16 +33,17 @@ function sendMessage(message) {
 let messagearea = document.querySelector('.message_area')
 
 function appendMessage(msg, type) {
+    //for dynamically add
     let mainDiv = document.createElement('div')
     let classname = type
     mainDiv.classList.add(classname, 'message')
     let markup = `
-      <h4> $ { msg.user } </h4> 
-      <p> $ { msg.message } </p>
+      <h4> ${ msg.user } </h4> 
+      <p> ${ msg.message } </p>
       `
 
     mainDiv.innerHTML = markup
-    messageArea.appendChild(mainDiv)
+    messagearea.appendChild(mainDiv)
 }
 
 //recieve  messages 
